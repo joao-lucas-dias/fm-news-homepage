@@ -115,3 +115,36 @@ main {
 .news article p {
     color: var(--color-neutral-grayblue);
 }
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.articles article {
+    display: flex;
+    gap: 1.5em;
+}
+
+.articles article img {
+    max-width: 30%;
+    object-fit: cover;
+}
+
+.article-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-body h2 {
+    color: var(--color-neutral-grayblue);
+    font-size: 2rem;
+}
+
+.article-body h3 {
+    color: var(--color-neutral-darkblue);
+    font-weight: var(--font-weight-extrabold);
+    font-size: 1.15rem;
+}
