@@ -1,15 +1,15 @@
 :root {
-    --color-primary-red: hsl(5, 85%, 63%);
-    --color-primary-orange: hsl(35, 77%, 62%);
+	--color-primary-red: hsl(5, 85%, 63%);
+	--color-primary-orange: hsl(35, 77%, 62%);
 
-    --color-neutral-white: hsl(36, 100%, 99%);
-    --color-neutral-grayblue: hsl(233, 8%, 79%);
-    --color-neutral-darkgrayblue: hsl(236, 13%, 42%);
-    --color-neutral-darkblue: hsl(240, 100%, 5%);
+	--color-neutral-white: hsl(36, 100%, 99%);
+	--color-neutral-grayblue: hsl(233, 8%, 79%);
+	--color-neutral-darkgrayblue: hsl(236, 13%, 42%);
+	--color-neutral-darkblue: hsl(240, 100%, 5%);
 
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+	--font-weight-extrabold: 800;
 }
 
 * {
@@ -17,9 +17,25 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
+
+    margin: 0;
+    padding: 1em;
 }
 
 p {
-    font-size: 15px;
+	font-size: 15px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
