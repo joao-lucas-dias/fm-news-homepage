@@ -199,6 +199,11 @@ main {
 		font-size: 1rem;
 	}
 
+    nav ul li:hover {
+        cursor: pointer;
+        color: var(--color-primary-orange);
+    }
+
 	.grid {
 		display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -237,9 +242,19 @@ main {
 		margin: 0;
 	}
 
+    .cover button:hover {
+        cursor: pointer;
+        background-color: var(--color-neutral-darkblue);
+    }
+
 	.news h2 {
 		font-size: 2.5rem;
 	}
+
+    .news h3:hover {
+        cursor: pointer;
+        color: var(--color-primary-orange);
+    }
 
 	.articles {
 		display: grid;
@@ -247,4 +262,9 @@ main {
         grid-column: span 3;
 		gap: 2em;
 	}
+
+    .article-body h3:hover {
+        cursor: pointer;
+        color: var(--color-primary-orange);
+    }
 }
