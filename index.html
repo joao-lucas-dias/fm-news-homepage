@@ -21,13 +21,37 @@
 			rel="stylesheet"
 		/>
 
+		<script>
+			function toggleMenu() {
+				var overlay = document.getElementById("overlay");
+				var sidebar = document.getElementById("menu-sidebar");
+
+				if (sidebar.style.display === "none") {
+					sidebar.style.display = "flex";
+					overlay.style.display = "block";
+				} else {
+					sidebar.style.display = "none";
+					overlay.style.display = "none";
+				}
+			}
+		</script>
+
 		<title>Frontend Mentor | News homepage</title>
 	</head>
 	<body>
 		<header>
+			<div id="overlay"></div>
 			<img src="./assets/images/logo.svg" alt="Logo" />
-			<nav>
-				<img src="./assets/images/icon-menu.svg" alt="hamburger menu" />
+			<a onclick="toggleMenu()"><img src="" alt="hamburger menu" /></a>
+			<ul>
+				<li>Home</li>
+				<li>New</li>
+				<li>Popular</li>
+				<li>Trending</li>
+				<li>Categories</li>
+			</ul>
+			<nav id="menu-sidebar">
+				<a onclick="toggleMenu()"><img src="" alt="close menu" /></a>
 				<ul>
 					<li>Home</li>
 					<li>New</li>
