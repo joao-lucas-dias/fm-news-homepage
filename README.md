@@ -14,4 +14,4 @@ Users should be able to:
 
 ## Demo
 
-- Live Site URL: https://joao-lucas-dias.github.io/news-homepage/
+- Live Site URL: https://joao-lucas-dias.github.io/fm-news-homepage/
